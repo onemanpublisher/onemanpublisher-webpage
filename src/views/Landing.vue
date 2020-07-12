@@ -1,6 +1,34 @@
 <template>
     <div>
         <div class="position-relative">
+            <vue-cookie-accept-decline
+                :ref="'myPanel1'"
+                :elementId="'myPanel1'"
+                :debug="false"
+                :position="'bottom-left'"
+                :type="'floating'"
+                :disableDecline="false"
+                :transitionName="'slideFromBottom'"
+                @status="cookieStatus"
+                @clickedAccept="cookieClickedAccept"
+                @clickedDecline="cookieClickedDecline"
+                @removedCookie="cookieRemovedCookie">
+
+                <!-- Optional -->
+                <div slot="message">
+                Unsere Seite nutzt 🍪, um dir ein besseres Surferlebnis zu ermöglichen! <a href="/#/datenschutz" target="_blank">Erfahre mehr...</a>
+                </div>
+
+                <!-- Optional -->
+                <div slot="declineContent">
+                OPT OUT
+                </div>
+
+                <!-- Optional -->
+                <div slot="acceptContent">
+                OKAY!
+                </div>
+            </vue-cookie-accept-decline>
             <!-- shape Hero -->
             <section class="section-shaped my-0">
                 <div class="shape shape-style-1 shape-default shape-skew">

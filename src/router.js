@@ -11,6 +11,7 @@ import Gravitybird from "./views/Gravity-Bird.vue";
 import Realmdash from "./views/Realm-Dash.vue";
 import Impressum from "./views/Impressum.vue";
 import Datenschutz from "./views/Datenschutz.vue";
+import AGB from "./views/AGB.vue";
 import { BIconArrowRightShort, BIconArrowsAngleExpand } from "bootstrap-vue";
 
 Vue.use(Router);
@@ -96,6 +97,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Datenschutz,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/agb",
+      name:"agb",
+      components: {
+        header: AppHeader,
+        default: AGB,
         footer: AppFooter
       }
     }

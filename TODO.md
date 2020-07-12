@@ -6,7 +6,7 @@
 
 [X] Andere Seiten erstellen
 
-[ ] Content für "Mehr erfahren"
+[ ] Content für "Mehr erfahren von der Landing Site"
 
 [ ] Content für "Gravity Bird"
 

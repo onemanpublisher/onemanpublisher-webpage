@@ -2,34 +2,6 @@
     <div class="profile-page">
         <section class="section-profile-cover section-shaped my-0">
             <div class="shape shape-style-1 shape-default shape-skew">
-                <vue-cookie-accept-decline
-                :ref="'myPanel1'"
-                :elementId="'myPanel1'"
-                :debug="false"
-                :position="'bottom-left'"
-                :type="'floating'"
-                :disableDecline="false"
-                :transitionName="'slideFromBottom'"
-                @status="cookieStatus"
-                @clickedAccept="cookieClickedAccept"
-                @clickedDecline="cookieClickedDecline"
-                @removedCookie="cookieRemovedCookie">
-
-                <!-- Optional -->
-                <div slot="message">
-                Unsere Seite nutzt 🍪, um dir ein besseres Surferlebnis zu ermöglichen! <a href="/#/datenschutz" target="_blank">Erfahre mehr...</a>
-                </div>
-
-                <!-- Optional -->
-                <div slot="declineContent">
-                OPT OUT
-                </div>
-
-                <!-- Optional -->
-                <div slot="acceptContent">
-                OKAY!
-                </div>
-            </vue-cookie-accept-decline>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -41,6 +13,34 @@
         </section>
         <section class="section section-skew">
             <div class="container">
+                <vue-cookie-accept-decline
+                    :ref="'myPanel1'"
+                    :elementId="'myPanel1'"
+                    :debug="false"
+                    :position="'bottom-left'"
+                    :type="'floating'"
+                    :disableDecline="false"
+                    :transitionName="'slideFromBottom'"
+                    @status="cookieStatus"
+                    @clickedAccept="cookieClickedAccept"
+                    @clickedDecline="cookieClickedDecline"
+                    @removedCookie="cookieRemovedCookie">
+
+                    <!-- Optional -->
+                    <div slot="message">
+                        Unsere Seite nutzt 🍪, um dir ein besseres Surferlebnis zu ermöglichen! <a href="/#/datenschutz" target="_blank">Erfahre mehr...</a>
+                    </div>
+
+                    <!-- Optional -->
+                    <div slot="declineContent">
+                        OPT OUT
+                    </div>
+
+                    <!-- Optional -->
+                    <div slot="acceptContent">
+                        OKAY!
+                    </div>
+                </vue-cookie-accept-decline>
                 <card shadow class="card-profile mt--300" no-body>
                     <div class="px-4">
                         <div class="row justify-content-center">

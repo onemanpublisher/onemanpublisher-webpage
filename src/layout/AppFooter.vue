@@ -58,6 +58,9 @@
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
+                            <a href="/#/agb" class="nav-link" rel="noopener">AGB</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="/#/impressum" class="nav-link" rel="noopener">Impressum</a>
                         </li>
                         <li class="nav-item">

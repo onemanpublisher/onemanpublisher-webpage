@@ -49,7 +49,10 @@
                         Ochsenweg 50<br>
                         24941 Flensburg<br>
                         <br>
+                        <b>Umsatzsteuer-Identifikationsnummer:</b> beantragt<br>
+                        <br>
                         <b>E-Mail:</b> info [at] onemanpublisher.com<br>
+                        <b>GPG-Mail:</b> gpg [at] onemanpublisher.com - bitte nur mit GPG-verschlüsselte Mails benutzen<br>
                         <hr>
                         <b>vertreten durch die Geschäftsführung</b><br>
                         Herr Luca Stephan Kohls<br>

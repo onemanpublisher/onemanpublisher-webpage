@@ -11,10 +11,10 @@
         <div class="container py-0 pb-lg">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 mb-5 mb-lg-0">
-                    <h1 class="text-white font-weight-light">Gravity Bird</h1>
+                    <h1 class="text-white font-weight-light">Realm Dash</h1>
                     <p class="lead text-white mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                    <img src="img/brand/apple.svg">
-                    <img src="img/brand/google-play.svg">
+                    <!-- <img src="img/brand/apple.svg">
+                    <img src="img/brand/google-play.svg"> -->
                 </div>
                 <div class="col-lg-6 mb-lg-auto">
                     <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
@@ -22,8 +22,8 @@
                                     controls
                                     indicators>
                             <!-- Text slides with image -->
-                            <b-carousel-slide img-src="img/theme/img-3-579x406.png"></b-carousel-slide>
-                            <b-carousel-slide img-src="img/theme/img-3-579x406.png"></b-carousel-slide>
+                            <!-- <b-carousel-slide img-src="img/theme/img-3-579x406.png"></b-carousel-slide>
+                            <b-carousel-slide img-src="img/theme/img-3-579x406.png"></b-carousel-slide> -->
                         </b-carousel>
                     </div>
                 </div>

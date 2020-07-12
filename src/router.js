@@ -8,6 +8,7 @@ import Luca from "./views/Profiles/Luca.vue";
 import Baris from "./views/Profiles/Baris.vue";
 import Alex from "./views/Profiles/Alex.vue";
 import Gravitybird from "./views/Gravity-Bird.vue";
+import Realmdash from "./views/Realm-Dash.vue";
 import Impressum from "./views/Impressum.vue";
 import Datenschutz from "./views/Datenschutz.vue";
 import { BIconArrowRightShort, BIconArrowsAngleExpand } from "bootstrap-vue";
@@ -68,6 +69,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Gravitybird,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/realm-dash",
+      name: "realm-dash",
+      components: {
+        header: AppHeader,
+        default: Realmdash,
         footer: AppFooter
       }
     },

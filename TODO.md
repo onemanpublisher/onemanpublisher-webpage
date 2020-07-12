@@ -1,5 +1,6 @@
 # TODO #
 
-[ ] Logo in Weiß
+[X] Logo in Weiß
 [ ] Apple und Google Play Logo anpassen
-[ ] Andere Seiten erstellen
+[X] Andere Seiten erstellen
+[ ] Content für "Mehr erfahren"

@@ -19,8 +19,8 @@
                             <div class="col-lg-3 order-lg-2">
                                 <div class="card-profile-image">
                                     <a href="#">
-                                        <img v-lazy="'img/theme/team-8-150x150.jpg'" class="rounded-circle">
-                                        <!-- <img v-lazy="'img/theme/team-8-800x800.jpg'" class="rounded-circle"> -->
+                                        <img v-lazy="'img/theme/team-4-640x640.jpg'" class="rounded-circle">
+                                        <!-- <img v-lazy="'img/theme/team-4-800x800.jpg'" class="rounded-circle"> -->
                                     </a>
                                 </div>
                             </div>

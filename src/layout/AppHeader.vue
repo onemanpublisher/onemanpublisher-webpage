@@ -30,14 +30,20 @@
                     <!-- <router-link to="/realm-dash" class="dropdown-item">Realm Dash [soon...]</router-link> -->
                     <!-- <router-link to="#" class="dropdown-item">...</router-link> -->
                 </base-dropdown>
-                <!-- <base-dropdown tag="li" class="nav-item">
-                    <a slot="title" href="/über-uns" class="nav-link" data-toggle="dropdown" role="button">
+                <base-dropdown tag="li" class="nav-item">
+                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Über uns</span>
+                        <span class="nav-link-inner--text">Das Team</span>
                     </a>
-                    <router-link to="/geschichte" class="dropdown-item">Geschichte</router-link>
-                    <router-link to="#" class="dropdown-item">...</router-link>
-                </base-dropdown> -->
+                    <router-link to="/Sascha-Dolgow" class="dropdown-item">Sascha Dolgow</router-link>
+                    <router-link to="/Luca-Kohls" class="dropdown-item">Luca Stephan Kohls</router-link>
+                    <router-link to="/Baris-Avci" class="dropdown-item">Baris Ozan Avci</router-link>
+                    <router-link to="/Alexander-Vaymer" class="dropdown-item">Alexander Vaymer</router-link>
+                </base-dropdown>
+                <a slot="title" href="/#/impressum" class="nav-link" data-toggle="dropdown" role="button">
+                    <i class="ni ni-collection d-lg-none"></i>
+                    <span class="nav-link-inner--text">Impressum</span>
+                </a>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <!-- <li class="nav-item">

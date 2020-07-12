@@ -19,8 +19,8 @@
                             <div class="col-lg-3 order-lg-2">
                                 <div class="card-profile-image">
                                     <a href="#">
-                                        <img v-lazy="'img/theme/team-7-150x150.jpg'" class="rounded-circle">
-                                        <!-- <img v-lazy="'img/theme/team-7-800x800.jpg'" class="rounded-circle"> -->
+                                        <img v-lazy="'img/theme/team-3-150x150.jpg'" class="rounded-circle">
+                                        <!-- <img v-lazy="'img/theme/team-3-800x800.jpg'" class="rounded-circle"> -->
                                     </a>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                         <br>
                         <div class="text-center mt-5">
                             <h3>Baris Ozan Avci
-                                <span class="font-weight-light">, XX</span>
+                                <span class="font-weight-light">, 21</span>
                             </h3>
                             <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Flensburg, Deutschland</div>
                             <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Trainee</div>

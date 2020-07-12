@@ -18,7 +18,7 @@
                     <div class="col px-0">
                         <div class="row">
                             <div class="col-lg-6">
-                                <h1 class="display-3  text-white">Unser neues Spiel
+                                <h1 class="display-3  text-white">Unser neustes Spiel
                                     <span>Gravity Bird</span>
                                 </h1>
                                 <p class="lead text-white">Erreiche den Highscore in dem du mit dem Vogel gegen die Gravitation und anderen Gefahren kämpfst!
@@ -42,7 +42,7 @@
                                     <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
                                     </icon>
                                     <h6 class="text-primary text-uppercase">Projektplanung- & mangement</h6>
-                                    <p class="description mt-3">Wir planen und delegieren Ihr Projekt nach Ihren Wünsche. Sie müssen weiter nichts tun.</p>
+                                    <p class="description mt-3">Wir planen und delegieren Ihr Projekt nach Ihren Wünschen. Sie müssen weiter nichts tun.</p>
                                     <div>
                                         <badge type="primary" rounded>design</badge>
                                         <badge type="primary" rounded>system</badge>
@@ -96,7 +96,7 @@
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
                         <h2 class="display-3">Die Nordlichter</h2>
-                        <p class="lead text-muted">Unser Team besteht aus schulfreunde welche alle in der nördlichsten Stadt Deutschlands aufgewachsen sind.</p>
+                        <p class="lead text-muted">Unser Team besteht aus Schulfreunde welche alle in der nördlichsten Stadt Deutschlands aufgewachsen sind.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -169,7 +169,7 @@
                     <div class="col-md-6 col-lg-6 mb-7 mb-lg-0">
                         <div class="px-4">
                             <a href="/#/alexander-vaymer">
-                                <img v-lazy="'img/theme/team-4-150x150.jpg'"
+                                <img v-lazy="'img/theme/team-4-640x640.jpg'"
                                     class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                     style="width: 200px;">
                             </a>

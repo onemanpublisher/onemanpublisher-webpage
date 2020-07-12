@@ -23,8 +23,8 @@
                                 </h1>
                                 <p class="lead text-white">Erreiche den Highscore in dem du mit dem Vogel gegen die Gravitation und anderen Gefahren kämpfst!
                                 <b>Jetzt neu für Android und Apple</b></p>
-                                <a href="https://apps.apple.com/de/app/the-real-gravity-bird/id1514182670"><img src="img/icons/common/apple.svg"></a>
-                                <a href="https://play.google.com/store/apps/details?id=com.onemanpublisher.TapToLive&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img src="img/icons/common/google-play.svg"></a>
+                                <a href="https://apps.apple.com/de/app/the-real-gravity-bird/id1514182670"><img src="img/brand/apple.svg"></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.onemanpublisher.TapToLive&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img src="img/brand/google-play.svg"></a>
                             </div>
                         </div>
                     </div>

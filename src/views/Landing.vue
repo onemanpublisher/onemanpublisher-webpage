@@ -76,9 +76,9 @@
                                         <badge type="primary" rounded>system</badge>
                                         <badge type="primary" rounded>kreativität</badge>
                                     </div>
-                                    <base-button tag="a" href="#" type="primary" class="mt-4">
+                                    <!-- <base-button tag="a" href="#" type="primary" class="mt-4">
                                         Mehr erfahren
-                                    </base-button>
+                                    </base-button> -->
                                 </card>
                             </div>
                             <div class="col-lg-4">
@@ -92,9 +92,9 @@
                                         <badge type="success" rounded>wunsch</badge>
                                         <badge type="success" rounded>vorstellung</badge>
                                     </div>
-                                    <base-button tag="a" href="#" type="success" class="mt-4">
+                                    <!-- <base-button tag="a" href="#" type="success" class="mt-4">
                                         Mehr erfahren
-                                    </base-button>
+                                    </base-button> -->
                                 </card>
                             </div>
                             <div class="col-lg-4">
@@ -109,9 +109,9 @@
                                         <badge type="warning" rounded>wartung</badge>
                                         <badge type="warning" rounded>launch</badge>
                                     </div>
-                                    <base-button tag="a" href="#" type="warning" class="mt-4">
+                                    <!-- <base-button tag="a" href="#" type="warning" class="mt-4">
                                         Mehr erfahren
-                                    </base-button>
+                                    </base-button> -->
                                 </card>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-6 mb-5 mb-lg-6">
+                    <div class="col-md-6 col-lg-4 mb-3 mb-lg-6">
                         <div class="px-4">
                             <a href="/#/sascha-dolgow">
                                 <img v-lazy="'img/theme/team-1-150x150.jpg'"
@@ -149,7 +149,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 mb-5 mb-lg-6">
+                    <div class="col-md-6 col-lg-4 mb-3 mb-lg-6">
                         <div class="px-4">
                             <a href="/#/luca-kohls">
                                 <img v-lazy="'img/theme/team-2-150x150.jpg'"
@@ -173,7 +173,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-6 mb-7 mb-lg-0">
+                    <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
                         <div class="px-4">
                             <a href="/#/baris-avci">
                                 <img v-lazy="'img/theme/team-3-150x150.jpg'"
@@ -189,27 +189,6 @@
                                     <base-button tag="a" href="https://www.instagram.com/baris_.avci" type="danger" target="_blank" icon="fa fa-instagram" rounded
                                                  icon-only></base-button>
                                     <base-button tag="a" href="mailto:avic@onemanpublisher.coM" type="danger" icon="fa fa-envelope" rounded
-                                                 icon-only></base-button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 mb-7 mb-lg-0">
-                        <div class="px-4">
-                            <a href="/#/alexander-vaymer">
-                                <img v-lazy="'img/theme/team-4-640x640.jpg'"
-                                    class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                    style="width: 200px;">
-                            </a>
-                            <div class="pt-4 text-center">
-                                <h5 class="title">
-                                    <span class="d-block mb-1">Alexander Vaymer</span>
-                                    <small class="h6 text-muted">Trainee Web-Developer</small>
-                                </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="https://www.instagram.com/alexvaymer" type="success" target="_blank" icon="fa fa-instagram" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="mailto:vaymer@onemanpublisher.com" type="success" icon="fa fa-envelope" rounded
                                                  icon-only></base-button>
                                 </div>
                             </div>

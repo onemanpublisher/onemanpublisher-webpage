@@ -38,7 +38,6 @@
                     <router-link to="/Sascha-Dolgow" class="dropdown-item">Sascha Dolgow</router-link>
                     <router-link to="/Luca-Kohls" class="dropdown-item">Luca Stephan Kohls</router-link>
                     <router-link to="/Baris-Avci" class="dropdown-item">Baris Ozan Avci</router-link>
-                    <router-link to="/Alexander-Vaymer" class="dropdown-item">Alexander Vaymer</router-link>
                 </base-dropdown>
                 <a slot="title" href="/#/impressum" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-collection d-lg-none"></i>

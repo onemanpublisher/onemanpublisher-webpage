@@ -6,7 +6,6 @@ import Landing from "./views/Landing.vue";
 import Sascha from "./views/Profiles/Sascha.vue";
 import Luca from "./views/Profiles/Luca.vue";
 import Baris from "./views/Profiles/Baris.vue";
-import Alex from "./views/Profiles/Alex.vue";
 import Gravitybird from "./views/Gravity-Bird.vue";
 import Realmdash from "./views/Realm-Dash.vue";
 import Impressum from "./views/Impressum.vue";
@@ -52,15 +51,6 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Baris,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/alexander-vaymer",
-      name: "alexander-vaymer",
-      components: {
-        header: AppHeader,
-        default: Alex,
         footer: AppFooter
       }
     },

@@ -22,13 +22,15 @@
                     <span class="nav-link-inner--text">Home</span>
                 </a>
                 <base-dropdown tag="li" class="nav-item">
-                    <a slot="title" href="/games" class="nav-link" data-toggle="dropdown" role="button">
+                    <a slot="title" href="/#/projekte" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Games</span>
+                        <span class="nav-link-inner--text">Projekte</span>
                     </a>
-                    <router-link to="/gravity-bird" class="dropdown-item">Gravity Bird</router-link>
-                    <!-- <router-link to="/realm-dash" class="dropdown-item">Realm Dash [soon...]</router-link> -->
-                    <!-- <router-link to="#" class="dropdown-item">...</router-link> -->
+                    <!-- <router-link to="/projekte/games/realm-dash" class="dropdown-item">Realm Dash</router-link> -->
+                    <router-link to="/projekte/games/gravity-bird" class="dropdown-item">Gravity Bird</router-link>
+                    <router-link to="/projekte/filesearcher" class="dropdown-item">Filesearcher</router-link>
+                    <router-link to="/projekte/julis-sh/openslides" class="dropdown-item">OpenSlides für JuLis SH</router-link>
+                    <router-link to="/projekte/julis-sh/internessystem" class="dropdown-item">Mitgliedersystem für JuLis SH</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">

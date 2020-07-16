@@ -50,8 +50,7 @@
                                     controls
                                     indicators>
                             <!-- Text slides with image -->
-                            <b-carousel-slide img-src="img/theme/img-3-579x406.png"></b-carousel-slide>
-                            <b-carousel-slide img-src="img/theme/img-3-579x406.png"></b-carousel-slide>
+                            <b-carousel-slide img-src="img/theme/img-1-579x406.png"></b-carousel-slide>
                         </b-carousel>
                     </div>
                 </div>

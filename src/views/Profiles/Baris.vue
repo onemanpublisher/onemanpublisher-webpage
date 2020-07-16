@@ -28,17 +28,17 @@
 
                     <!-- Optional -->
                     <div slot="message">
-                        Unsere Seite nutzt 🍪, um dir ein besseres Surferlebnis zu ermöglichen! <a href="/#/datenschutz" target="_blank">Erfahre mehr...</a>
+                        {{ $t('global_cookie_notice') }} <a href="/#/datenschutz" target="_blank">{{ $t('global_cookie_more') }}</a>
                     </div>
 
                     <!-- Optional -->
                     <div slot="declineContent">
-                        OPT OUT
+                        {{ $t('global_cookie_optout') }}
                     </div>
 
                     <!-- Optional -->
                     <div slot="acceptContent">
-                        OKAY!
+                        {{ $t('global_cookie_okay') }}
                     </div>
                 </vue-cookie-accept-decline>
                 <card shadow class="card-profile mt--300" no-body>
@@ -55,7 +55,7 @@
                             <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                 <div class="card-profile-actions py-4 mt-lg-0">
                                     <!-- <base-button type="info" size="sm" class="mr-4">Connect</base-button> -->
-                                    <a href="mailto:avci@onemanpublisher.com"><base-button type="default" size="l" class="float-right">Message</base-button></a>
+                                    <a href="mailto:avci@onemanpublisher.com"><base-button type="default" size="l" class="float-right">{{ $t('message_button') }}</base-button></a>
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-1">
@@ -77,12 +77,12 @@
                         </div>
                         <br>
                         <div class="text-center mt-5">
-                            <h3>Baris Ozan Avci
-                                <span class="font-weight-light">, 21</span>
+                            <h3>{{ $t('baris_name') }}
+                                <span class="font-weight-light">, {{ $t('baris_age') }}</span>
                             </h3>
-                            <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Flensburg, Deutschland</div>
-                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Trainee</div>
-                            <div><i class="ni education_hat mr-2"></i>App-Developer (Android)</div>
+                            <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>{{ $t('baris_home') }}</div>
+                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>{{ $t('baris_position') }}</div>
+                            <div><i class="ni education_hat mr-2"></i>{{ $t('baris_position2') }}</div>
                         </div>
                         <div class="mt-5 py-5 border-top text-center">
                             <div class="row justify-content-center">

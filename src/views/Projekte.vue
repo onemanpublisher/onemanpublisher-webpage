@@ -10,37 +10,37 @@
         </div>
         <div class="container py-0 pb-lg">
             <vue-cookie-accept-decline
-                        :ref="'myPanel1'"
-                        :elementId="'myPanel1'"
-                        :debug="false"
-                        :position="'bottom-left'"
-                        :type="'floating'"
-                        :disableDecline="false"
-                        :transitionName="'slideFromBottom'"
-                        @status="cookieStatus"
-                        @clickedAccept="cookieClickedAccept"
-                        @clickedDecline="cookieClickedDecline"
-                        @removedCookie="cookieRemovedCookie">
+                :ref="'myPanel1'"
+                :elementId="'myPanel1'"
+                :debug="false"
+                :position="'bottom-left'"
+                :type="'floating'"
+                :disableDecline="false"
+                :transitionName="'slideFromBottom'"
+                @status="cookieStatus"
+                @clickedAccept="cookieClickedAccept"
+                @clickedDecline="cookieClickedDecline"
+                @removedCookie="cookieRemovedCookie">
 
-                        <!-- Optional -->
-                        <div slot="message">
-                            Unsere Seite nutzt 🍪, um dir ein besseres Surferlebnis zu ermöglichen! <a href="/#/datenschutz" target="_blank">Erfahre mehr...</a>
-                        </div>
+                <!-- Optional -->
+                <div slot="message">
+                    {{ $t('global_cookie_notice') }} <a href="/#/datenschutz" target="_blank">{{ $t('global_cookie_more') }}</a>
+                </div>
 
-                        <!-- Optional -->
-                        <div slot="declineContent">
-                            OPT OUT
-                        </div>
+                <!-- Optional -->
+                <div slot="declineContent">
+                    {{ $t('global_cookie_optout') }}
+                </div>
 
-                        <!-- Optional -->
-                        <div slot="acceptContent">
-                            OKAY!
-                        </div>
-                    </vue-cookie-accept-decline>
+                <!-- Optional -->
+                <div slot="acceptContent">
+                    {{ $t('global_cookie_okay') }}
+                </div>
+            </vue-cookie-accept-decline>
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 mb-5 mb-lg-0">
-                    <h1 class="text-white font-weight-light">Unsere Projekte</h1>
-                    <p class="lead text-white mt-4">Trotz das wir ein kleines Team sind, haben wir mehrere Projekte um die wir uns aktiv kümmern.</p>
+                    <h1 class="text-white font-weight-light">{{ $t('projekte_ü') }}</h1>
+                    <p class="lead text-white mt-4">{{ $t('projekte_t') }}</p>
                 </div>
                 <div class="col-lg-6 mb-lg-auto">
                     <div class="rounded shadow-lg overflow-hidden transform-perspective-right">

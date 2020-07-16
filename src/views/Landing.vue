@@ -30,27 +30,27 @@
 
                         <!-- Optional -->
                         <div slot="message">
-                            Unsere Seite nutzt 🍪, um dir ein besseres Surferlebnis zu ermöglichen! <a href="/#/datenschutz" target="_blank">Erfahre mehr...</a>
+                            {{ $t('global_cookie_notice') }} <a href="/#/datenschutz" target="_blank">{{ $t('global_cookie_more') }}</a>
                         </div>
 
                         <!-- Optional -->
                         <div slot="declineContent">
-                            OPT OUT
+                            {{ $t('global_cookie_optout') }}
                         </div>
 
                         <!-- Optional -->
                         <div slot="acceptContent">
-                            OKAY!
+                            {{ $t('global_cookie_okay') }}
                         </div>
                     </vue-cookie-accept-decline>
                     <div class="col px-0">
                         <div class="row">
                             <div class="col-lg-6">
-                                <h1 class="display-3  text-white">Unser neustes Spiel
-                                    <span>Gravity Bird</span>
+                                <h1 class="display-3  text-white">{{ $t('landingpage_newestGame') }}
+                                    <span>{{ $t('landingpage_game') }}</span>
                                 </h1>
-                                <p class="lead text-white">Erreiche den Highscore in dem du mit dem Vogel gegen die Gravitation und anderen Gefahren kämpfst!
-                                <b>Jetzt neu für Android und Apple</b></p>
+                                <p class="lead text-white">{{ $t('landingpage_gameShortDesc') }}<br>
+                                <b>{{ $t('landingpage_gameShortDesc2') }}</b></p>
                                 <a href="https://apps.apple.com/de/app/the-real-gravity-bird/id1514182670"><img src="img/brand/apple.svg"></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.onemanpublisher.TapToLive&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img src="img/brand/google-play.svg"></a>
                             </div>
@@ -69,12 +69,12 @@
                                 <card class="border-0" hover shadow body-classes="py-5">
                                     <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-primary text-uppercase">Projektplanung- & mangement</h6>
-                                    <p class="description mt-3">Wir planen und delegieren Ihr Projekt nach Ihren Wünschen. Sie müssen weiter nichts tun.</p>
+                                    <h6 class="text-primary text-uppercase">{{ $t('landingpage_ersteKachelü') }}</h6>
+                                    <p class="description mt-3">{{ $t('landingpage_ersteKachelt') }}</p>
                                     <div>
-                                        <badge type="primary" rounded>design</badge>
-                                        <badge type="primary" rounded>system</badge>
-                                        <badge type="primary" rounded>kreativität</badge>
+                                        <badge type="primary" rounded>{{ $t('landingpage_ersteKachelb1') }}</badge>
+                                        <badge type="primary" rounded>{{ $t('landingpage_ersteKachelb2') }}</badge>
+                                        <badge type="primary" rounded>{{ $t('landingpage_ersteKachelb3') }}</badge>
                                     </div>
                                     <!-- <base-button tag="a" href="#" type="primary" class="mt-4">
                                         Mehr erfahren
@@ -85,12 +85,12 @@
                                 <card class="border-0" hover shadow body-classes="py-5">
                                     <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-success text-uppercase">Wunschentwicklung</h6>
-                                    <p class="description mt-3">Wir entwickeln ihr Projekt genau nach Ihren Wünschen und Vorstellungen. Sie müssen nichts tun.</p>
+                                    <h6 class="text-success text-uppercase">{{ $t('landingpage_zweiteKachelü') }}</h6>
+                                    <p class="description mt-3">{{ $t('landingpage_zweiteKachelt') }}</p>
                                     <div>
-                                        <badge type="success" rounded>entwicklung</badge>
-                                        <badge type="success" rounded>wunsch</badge>
-                                        <badge type="success" rounded>vorstellung</badge>
+                                        <badge type="success" rounded>{{ $t('landingpage_zweiteKachelb1') }}</badge>
+                                        <badge type="success" rounded>{{ $t('landingpage_zweiteKachelb2') }}</badge>
+                                        <badge type="success" rounded>{{ $t('landingpage_zweiteKachelb3') }}</badge>
                                     </div>
                                     <!-- <base-button tag="a" href="#" type="success" class="mt-4">
                                         Mehr erfahren
@@ -101,13 +101,12 @@
                                 <card class="border-0" hover shadow body-classes="py-5">
                                     <icon name="ni ni-planet" type="warning" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-warning text-uppercase">Stetige Wartung</h6>
-                                    <p class="description mt-3">Nach der Entwicklung übernehmen wir für Sie die Wartung Ihres Projektes. Sie müssen auch hier nichts tun.
-                                    </p>
+                                    <h6 class="text-warning text-uppercase">{{ $t('landingpage_dritteKachelü') }}</h6>
+                                    <p class="description mt-3">{{ $t('landingpage_dritteKachelt') }}</p>
                                     <div>
-                                        <badge type="warning" rounded>marketing</badge>
-                                        <badge type="warning" rounded>wartung</badge>
-                                        <badge type="warning" rounded>launch</badge>
+                                        <badge type="warning" rounded>{{ $t('landingpage_dritteKachelb1') }}</badge>
+                                        <badge type="warning" rounded>{{ $t('landingpage_dritteKachelb2') }}</badge>
+                                        <badge type="warning" rounded>{{ $t('landingpage_dritteKachelb3') }}</badge>
                                     </div>
                                     <!-- <base-button tag="a" href="#" type="warning" class="mt-4">
                                         Mehr erfahren
@@ -123,8 +122,8 @@
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
-                        <h2 class="display-3">Die Nordlichter</h2>
-                        <p class="lead text-muted">Unser Team besteht aus Schulfreunde welche alle in der nördlichsten Stadt Deutschlands aufgewachsen sind.</p>
+                        <h2 class="display-3">{{ $t('landingpage_team_ü') }}</h2>
+                        <p class="lead text-muted">{{ $t('landingpage_team_üu') }}</p>
                     </div>
                 </div>
                 <div class="row">
@@ -137,8 +136,8 @@
                             </a>
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Sascha Dolgow</span>
-                                    <small class="h6 text-muted">CEO & App-Developer</small>
+                                    <span class="d-block mb-1">{{ $t('landingpage_team_sascha') }}</span>
+                                    <small class="h6 text-muted">{{ $t('landingpage_team_saschau') }}</small>
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="https://www.instagram.com/sasdolgow" type="warning" target="_blanK" icon="fa fa-instagram" rounded
@@ -158,8 +157,8 @@
                             </a>
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Luca Stephan Kohls</span>
-                                    <small class="h6 text-muted">CEO & System-Administrator</small>
+                                    <span class="d-block mb-1">{{ $t('landingpage_team_luca') }}</span>
+                                    <small class="h6 text-muted">{{ $t('landingpage_team_lucau') }}</small>
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="https://twitter.com/kohls_luca" type="primary" target="_blank" icon="fa fa-twitter" rounded
@@ -182,8 +181,8 @@
                             </a>
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Baris Ozan Avci</span>
-                                    <small class="h6 text-muted">Trainee App-Developer</small>
+                                    <span class="d-block mb-1">{{ $t('landingpage_team_baris') }}</span>
+                                    <small class="h6 text-muted">{{ $t('landingpage_team_barisu') }}</small>
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="https://www.instagram.com/baris_.avci" type="danger" target="_blank" icon="fa fa-instagram" rounded
@@ -206,13 +205,13 @@
                     <div class="p-5">
                         <div class="row align-items-center">
                             <div class="col-lg-8">
-                                <h3 class="text-white">Wir erstellen genau das, was Sie brauchen!</h3>
-                                <p class="lead text-white mt-3">Gerade als ein kleines Team, sind wir im Stande für Sie in kurzer Zeit genau die Anwendung für Sie zu kreieren, die Sie benötigen.</p>
+                                <h3 class="text-white">{{ $t('landingpage_yellowbox_ü') }}</h3>
+                                <p class="lead text-white mt-3">{{ $t('landingpage_yellowbox_t') }}</p>
                             </div>
                             <div class="col-lg-3 ml-lg-auto">
                                 <base-button tag="a" href="mailto:info@onemanpublisher.com"
                                             type="white" block size="lg">
-                                    Kontakt aufnehmen
+                                    {{ $t('landingpage_yellowbox_b') }}
                                 </base-button>
                             </div>
                         </div>

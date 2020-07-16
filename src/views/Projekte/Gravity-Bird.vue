@@ -24,23 +24,23 @@
 
                 <!-- Optional -->
                 <div slot="message">
-                    Unsere Seite nutzt 🍪, um dir ein besseres Surferlebnis zu ermöglichen! <a href="/#/datenschutz" target="_blank">Erfahre mehr...</a>
+                    {{ $t('global_cookie_notice') }} <a href="/#/datenschutz" target="_blank">{{ $t('global_cookie_more') }}</a>
                 </div>
 
                 <!-- Optional -->
                 <div slot="declineContent">
-                    OPT OUT
+                    {{ $t('global_cookie_optout') }}
                 </div>
 
                 <!-- Optional -->
                 <div slot="acceptContent">
-                    OKAY!
+                    {{ $t('global_cookie_okay') }}
                 </div>
             </vue-cookie-accept-decline>
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 mb-5 mb-lg-0">
-                    <h1 class="text-white font-weight-light">Gravity Bird</h1>
-                    <p class="lead text-white mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
+                    <h1 class="text-white font-weight-light">{{ $t('gravitybird_ü') }}</h1>
+                    <p class="lead text-white mt-4">{{ $t('gravitybird_t') }}</p>
                     <img src="img/brand/apple.svg">
                     <img src="img/brand/google-play.svg">
                 </div>

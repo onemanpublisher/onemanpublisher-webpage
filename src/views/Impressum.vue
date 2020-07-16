@@ -27,47 +27,47 @@
 
                     <!-- Optional -->
                     <div slot="message">
-                        Unsere Seite nutzt 🍪, um dir ein besseres Surferlebnis zu ermöglichen! <a href="/#/datenschutz" target="_blank">Erfahre mehr...</a>
+                        {{ $t('global_cookie_notice') }} <a href="/#/datenschutz" target="_blank">{{ $t('global_cookie_more') }}</a>
                     </div>
 
                     <!-- Optional -->
                     <div slot="declineContent">
-                        OPT OUT
+                        {{ $t('global_cookie_optout') }}
                     </div>
 
                     <!-- Optional -->
                     <div slot="acceptContent">
-                        OKAY!
+                        {{ $t('global_cookie_okay') }}
                     </div>
-                </vue-cookie-accept-decline>
+                    </vue-cookie-accept-decline>
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <!-- Basic elements -->
-                        <h2 class="mb-5"><span>Impressum</span></h2>
-                        <b><h5>Angaben gemäß § 5 TMG:</h5></b><br>
-                        onemanpublisher GbR<br>
-                        Ochsenweg 50<br>
-                        24941 Flensburg<br>
+                        <h2 class="mb-5"><span>{{ $t('impressum_title') }}</span></h2>
+                        <b><h5>{{ $t('impressum_utitle') }}</h5></b><br>
+                        {{ $t('impressum_adress') }}<br>
+                        {{ $t('impressum_adress2') }}<br>
+                        {{ $t('impressum_adress3') }}<br>
                         <br>
-                        <b>Umsatzsteuer-Identifikationsnummer:</b> beantragt<br>
+                        <b>{{ $t('impressum_ust') }}</b> {{ $t('impressum_ust2') }}<br>
                         <br>
-                        <b>E-Mail:</b> info [at] onemanpublisher.com<br>
-                        <b>GPG-Mail:</b> gpg [at] onemanpublisher.com - bitte nur mit GPG-verschlüsselte Mails benutzen<br>
+                        <b>{{ $t('impressum_email') }}</b> {{ $t('impressum_email2') }}<br>
+                        <b>{{ $t('impressum_gpg') }}</b> {{ $t('impressum_gpg2') }}<br>
                         <hr>
-                        <b>vertreten durch die Geschäftsführung</b><br>
-                        Herr Luca Stephan Kohls<br>
-                        Herr Sascha Dolgow<br>
+                        <b>{{ $t('impressum_vertretung') }}</b><br>
+                        {{ $t('impressum_vertretung2') }}<br>
+                        {{ $t('impressum_vertretung3') }}<br>
                         <hr>
-                        <b>Haftungshinweis</b><br>
-                        <p>Hiermit distanzieren wir uns, trotz sorgfältiger Prüfung, von den Inhalten aller Links dieser Seite und machen uns diese Inhalte nicht zu eigen.<br>
-                        Der Inhalt der jeweiligen Links hat dessen Inhaber zu verantworten.</p>
+                        <b>{{ $t('impressum_haftung') }}</b><br>
+                        <p>{{ $t('impressum_haftung2') }}<br>
+                        {{ $t('impressum_haftung3') }}</p>
                         <hr>
-                        <b>Online-Streibeteiligung</b><br>
-                        <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit. Die Plattform finden Sie unter <a href="http://ec.europa.eu/consumers/odr">http://ec.europa.eu/consumers/odr</a>. Verbraucher haben die Möglichkeit, diese Plattform für die Beilegung ihrer Streitigkeiten zu nutzen.</p>
-                        <p>Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und werden von Fall zu Fall individuell über eine Teilnahme entscheiden.</p>
+                        <b>{{ $t('impressum_osb') }}</b><br>
+                        <p>{{ $t('impressum_osb2') }} <a href="http://ec.europa.eu/consumers/odr">{{ $t('impressum_osblink') }}</a>{{ $t('impressum_osb3') }}</p>
+                        <p>{{ $t('impressum_osb4') }}</p>
                         <hr>
-                        <b>Datenschutz</b><br>
-                        Unsere Datenschutzerklärung ist unter <a href="https://onemanpublisher.com/#/datenschutz">https://onemanpublisher.com/#/datenschutz</a> jederzeit aufrufbar.
+                        <b>{{ $t('impressum_datenschutz') }}</b><br>
+                        {{ $t('impressum_datenschutz2') }} <a href="https://onemanpublisher.com/#/datenschutz">{{ $t('impressum_datenschutzlink') }}</a>{{ $t('impressum_datenschutz3') }}
                     </div>
                 </div>
             </div>

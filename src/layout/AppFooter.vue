@@ -52,19 +52,19 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="#" rel="noopener">onemanpublisher</a>
+                        <a href="#" rel="noopener">{{ $t('footer_copyright') }}</a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="/#/agb" class="nav-link" rel="noopener">AGB</a>
+                            <a href="/#/agb" class="nav-link" rel="noopener">{{ $t('footer_agb') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/#/impressum" class="nav-link" rel="noopener">Impressum</a>
+                            <a href="/#/impressum" class="nav-link" rel="noopener">{{ $t('footer_impressum') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/#/datenschutz" class="nav-link" rel="noopener">Datenschutzerklärung</a>
+                            <a href="/#/datenschutz" class="nav-link" rel="noopener">{{ $t('footer_datenschutz') }}</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a href="/kontakt" class="nav-link" rel="noopener">Kontakt</a>

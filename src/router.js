@@ -5,7 +5,6 @@ import AppFooter from "./layout/AppFooter";
 import Landing from "./views/Landing.vue";
 import Sascha from "./views/Profiles/Sascha.vue";
 import Luca from "./views/Profiles/Luca.vue";
-import Baris from "./views/Profiles/Baris.vue";
 import Projekte from "./views/Projekte.vue";
 import Filesearcher from "./views/Projekte/Filesearcher.vue";
 import Gravitybird from "./views/Projekte/Gravity-Bird.vue";
@@ -44,15 +43,6 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Luca,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/baris-avci",
-      name: "baris-avci",
-      components: {
-        header: AppHeader,
-        default: Baris,
         footer: AppFooter
       }
     },

@@ -19,7 +19,6 @@ const messages = {
         header_team: 'Das Team',
         header_team_1: 'Sascha Dolgow',
         header_team_2: 'Luca Stephan Kohls',
-        header_team_3: 'Baris Ozan Avci',
         header_impressum: 'Impressum',
 
         footer_copyright: 'onemanpublisher',
@@ -32,7 +31,7 @@ const messages = {
         landingpage_gameShortDesc: 'Erreiche den Highscore in dem du mit dem Vogel gegen die Gravitation und anderen Gefahren kämpfst!',
         landingpage_gameShortDesc2: 'Jetzt neu für Android und Apple',
 
-        landingpage_ersteKachelü: 'PROJEKTPLANUNG- & MANAGEMENT',
+        landingpage_ersteKachelü: 'PROJEKTMANAGEMENT',
         landingpage_ersteKachelt: 'Wir planen und delegieren Ihr Projekt nach Ihren Wünschen. Sie müssen weiter nichts tun.',
         landingpage_ersteKachelb1: 'DESIGN',
         landingpage_ersteKachelb2: 'SYSTEM',
@@ -53,11 +52,9 @@ const messages = {
         landingpage_team_ü: 'Die Nordlichter',
         landingpage_team_üu: 'Unser Team besteht aus Schulfreunde welche alle in der nördlichsten Stadt Deutschlands aufgewachsen sind.',
         landingpage_team_sascha: 'Sascha Dolgow',
-        landingpage_team_saschau: 'CEO & App-Developer',
+        landingpage_team_saschau: 'CEO & App Developer',
         landingpage_team_luca: 'Luca Stephan Kohls',
-        landingpage_team_lucau: 'CEO & System-Administrator',
-        landingpage_team_baris: 'Baris Ozan Avci',
-        landingpage_team_barisu: 'Praktikant App-Developer',
+        landingpage_team_lucau: 'COO & System-Administrator',
 
         landingpage_yellowbox_ü: 'Wir erstellen genau das, was Sie brauchen!',
         landingpage_yellowbox_t: 'Gerade als ein kleines Team, sind wir im Stande für Sie in kurzer Zeit genau die Anwendung für Sie zu kreieren, die Sie benötigen.',
@@ -76,28 +73,22 @@ const messages = {
         message_button: 'NACHRICHT',
 
         sascha_name: 'Sascha Dolgow',
-        sascha_age: '20',
+        sascha_age: '24',
         sascha_home: 'Flensburg, Deutschland',
-        sascha_position: 'Geschäftsführer & Inhaber',
+        sascha_position: 'CEO & Inhaber',
         sascha_position2: 'App-Entwickler (Android & iOS)',
 
         luca_name: 'Luca Stephan Kohls',
-        luca_age: '20',
-        luca_home: 'Flensburg, Deutschland',
-        luca_position: 'Geschäftsführer & Inhaber',
+        luca_age: '24',
+        luca_home: 'Hamburg, Deutschland',
+        luca_position: 'CEO & Inhaber',
         luca_position2: 'System-Administrator & Web-Entwickler',
-
-        baris_name: 'Baris Ozan Avci',
-        baris_age: '21',
-        baris_home: 'Flensburg, Deutschland',
-        baris_position: 'Praktikant',
-        baris_position2: 'App-Entwickler (Android)',
 
         impressum_title: 'Impressum',
         impressum_utitle: 'Angaben gemäß § 5 TMG:',
         impressum_adress: 'onemanpublisher GbR',
-        impressum_adress2: 'Ochsenweg 50',
-        impressum_adress3: '24941 Flensburg',
+        impressum_adress2: 'Lengerckestieg 2',
+        impressum_adress3: '22041 Hamburg',
         impressum_ust: 'Umsatzsteuer-Identifikationsnummer:',
         impressum_ust2: 'beantragt',
         impressum_email: 'E-Mail',
@@ -105,8 +96,8 @@ const messages = {
         impressum_gpg: 'GPG-Mail:',
         impressum_gpg2: 'gpg [at] onemanpublisher.com - bitte nur mit GPG-verschlüsselte Mails benutzen',
         impressum_vertretung: 'vertreten durch die Geschäftsführung',
-        impressum_vertretung2: 'Herr Sascha Dolgow',
-        impressum_vertretung3: 'Herr Luca Stephan Kohls',
+        impressum_vertretung2: 'Herrn Sascha Dolgow',
+        impressum_vertretung3: 'Herrn Luca Stephan Kohls',
         impressum_haftung: 'Haftungshinweis',
         impressum_haftung2: 'Hiermit distanzieren wir uns, trotz sorgfältiger Prüfung, von den Inhalten aller Links dieser Seite und machen uns diese Inhalte nicht zu eigen.',
         impressum_haftung3: 'Der Inhalt der jeweiligen Links hat dessen Inhaber zu verantworten.',
@@ -205,7 +196,6 @@ const messages = {
         header_team: 'The Team',
         header_team_1: 'Sascha Dolgow',
         header_team_2: 'Luca Stephan Kohls',
-        header_team_3: 'Baris Ozan Avci',
         header_impressum: 'Imprint',
 
         footer_copyright: 'onemanpublisher',
@@ -218,7 +208,7 @@ const messages = {
         landingpage_gameShortDesc: 'Reach the high score by fighting against gravity and other dangers with the bird!',
         landingpage_gameShortDesc2: 'Now on Android and Apple',
 
-        landingpage_ersteKachelü: 'PROJECT PLANNING & MANAGEMENT',
+        landingpage_ersteKachelü: 'PROJECTMANAGEMENT',
         landingpage_ersteKachelt: "We plan and delegate your project according to your wishes. You don't have to do anything else.",
         landingpage_ersteKachelb1: 'DESIGN',
         landingpage_ersteKachelb2: 'SYSTEM',
@@ -262,28 +252,22 @@ const messages = {
         message_button: 'MESSAGE',
 
         sascha_name: 'Sascha Dolgow',
-        sascha_age: '20',
+        sascha_age: '24',
         sascha_home: 'Flensburg, Germany',
-        sascha_position: 'Chief Executive Officer',
+        sascha_position: 'CEO',
         sascha_position2: 'App developer (Android & iOS)',
 
         luca_name: 'Luca Stephan Kohls',
-        luca_age: '20',
-        luca_home: 'Flensburg, Germany',
-        luca_position: 'Chief Executiver Officer',
+        luca_age: '24',
+        luca_home: 'Hamburg, Germany',
+        luca_position: 'COO',
         luca_position2: 'System administrator & web developer',
-
-        baris_name: 'Baris Ozan Avci',
-        baris_age: '21',
-        baris_home: 'Flensburg, Germany',
-        baris_position: 'Trainee',
-        baris_position2: 'App developer (Android)',
 
         impressum_title: 'Imprint',
         impressum_utitle: 'According to § 5 TMG:',
         impressum_adress: 'onemanpublisher GbR',
-        impressum_adress2: 'Ochsenweg 50',
-        impressum_adress3: 'D-24941 Flensburg',
+        impressum_adress2: 'Lengerckestieg 2',
+        impressum_adress3: 'D-22041 Hamburg',
         impressum_ust: 'VAT identification number:',
         impressum_ust2: 'requested',
         impressum_email: 'email',
@@ -379,8 +363,8 @@ const messages = {
 };
 
 const i18n = new VueI18n({
-    locale: 'en', //set locale
-    fallbackLocale: 'ger', //set fallback locale
+    locale: 'ger', //set locale
+    fallbackLocale: 'en', //set fallback locale
     messages,
 });
 

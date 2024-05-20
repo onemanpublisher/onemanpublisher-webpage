@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-4 mb-3 mb-lg-6">
+                    <div class="col">
                         <div class="px-4">
                             <a href="/#/sascha-dolgow">
                                 <img v-lazy="'img/theme/team-1-150x150.jpg'"
@@ -148,7 +148,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-3 mb-lg-6">
+                    <div class="col">
                         <div class="px-4">
                             <a href="/#/luca-kohls">
                                 <img v-lazy="'img/theme/team-2-150x150.jpg'"
@@ -163,31 +163,9 @@
                                 <div class="mt-3">
                                     <base-button tag="a" href="https://twitter.com/kohls_luca" type="primary" target="_blank" icon="fa fa-twitter" rounded
                                                  icon-only></base-button>
-                                    <base-button tag="a" href="https://www.instagram.com/luca_kohls17/" type="primary" target="_blank" icon="fa fa-instagram" rounded
+                                    <base-button tag="a" href="https://www.instagram.com/luca.kohls/" type="primary" target="_blank" icon="fa fa-instagram" rounded
                                                  icon-only></base-button>
                                     <base-button tag="a" href="mailto:kohls@onemanpublisher.com" type="primary" icon="fa fa-envelope" rounded
-                                                 icon-only></base-button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
-                        <div class="px-4">
-                            <a href="/#/baris-avci">
-                                <img v-lazy="'img/theme/team-3-150x150.jpg'"
-                                    class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                    style="width: 200px;">
-                            </a>
-                            <div class="pt-4 text-center">
-                                <h5 class="title">
-                                    <span class="d-block mb-1">{{ $t('landingpage_team_baris') }}</span>
-                                    <small class="h6 text-muted">{{ $t('landingpage_team_barisu') }}</small>
-                                </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="https://www.instagram.com/baris_.avci" type="danger" target="_blank" icon="fa fa-instagram" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="mailto:avic@onemanpublisher.coM" type="danger" icon="fa fa-envelope" rounded
                                                  icon-only></base-button>
                                 </div>
                             </div>

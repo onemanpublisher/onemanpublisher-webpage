@@ -39,7 +39,6 @@
                     </a>
                     <router-link to="/Sascha-Dolgow" class="dropdown-item">{{ $t('header_team_1') }}</router-link>
                     <router-link to="/Luca-Kohls" class="dropdown-item">{{ $t('header_team_2') }}</router-link>
-                    <router-link to="/Baris-Avci" class="dropdown-item">{{ $t('header_team_3') }}</router-link>
                 </base-dropdown>
                 <a slot="title" href="/#/impressum" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-collection d-lg-none"></i>

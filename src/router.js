@@ -6,9 +6,8 @@ import Landing from "./views/Landing.vue";
 import Sascha from "./views/Profiles/Sascha.vue";
 import Luca from "./views/Profiles/Luca.vue";
 import Projekte from "./views/Projekte.vue";
-import Filesearcher from "./views/Projekte/Filesearcher.vue";
+import Dealspotter from "./views/Projekte/Dealspotter.vue";
 import Gravitybird from "./views/Projekte/Gravity-Bird.vue";
-import Realmdash from "./views/Projekte/Realm-Dash.vue";
 import Impressum from "./views/Impressum.vue";
 import Datenschutz from "./views/Datenschutz.vue";
 import AGB from "./views/AGB.vue";
@@ -56,11 +55,11 @@ export default new Router({
       }
     },
     {
-      path: "/projekte/filesearcher",
-      name: "filesearcher",
+      path: "/projekte/deal-spotter",
+      name: "dealspotter",
       components: {
         header: AppHeader,
-        default: Filesearcher,
+        default: Dealspotter,
         footer: AppFooter
       }
     },
@@ -73,15 +72,6 @@ export default new Router({
         footer: AppFooter
       }
     },
-    // {
-    //   path: "/projekte/games/realm-dash",
-    //   name: "realm-dash",
-    //   components: {
-    //     header: AppHeader,
-    //     default: Realmdash,
-    //     footer: AppFooter
-    //   }
-    // },
     {
       path: "/impressum",
       name: "impressum",

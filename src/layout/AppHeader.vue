@@ -28,9 +28,7 @@
                     </a>
                     <!-- <router-link to="/projekte/games/realm-dash" class="dropdown-item">Realm Dash</router-link> -->
                     <router-link to="/projekte/games/gravity-bird" class="dropdown-item">{{ $t('header_projekte_1') }}</router-link>
-                    <router-link to="/projekte/filesearcher" class="dropdown-item">{{ $t('header_projekte_2') }}</router-link>
-                    <router-link to="/projekte/julis-sh/openslides" class="dropdown-item">{{ $t('header_projekte_3') }}</router-link>
-                    <router-link to="/projekte/julis-sh/internessystem" class="dropdown-item">{{ $t('header_projekte_4') }}</router-link>
+                    <router-link to="/projekte/deal-spotter" class="dropdown-item">{{ $t('header_projekte_2') }}</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">

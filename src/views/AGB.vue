@@ -9,9 +9,7 @@
                 <span></span>
                 <span></span>
             </div>
-        </section>
-        <section class="section section-components pb-0" id="section-components">
-            <div class="container">
+            <div class="container py-0 pb-lg">
                 <vue-cookie-accept-decline
                     :ref="'myPanel1'"
                     :elementId="'myPanel1'"
@@ -40,10 +38,18 @@
                         OKAY!
                     </div>
                 </vue-cookie-accept-decline>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <h1 class="text-white font-weight-light">Allgemeine Geschäftsbedingungen</h1>
+                        <p class="lead text-white mt-4">Allgemeine Geschäftsbedingungen oder kurz AGB sind vorformulierte Vertragsbedingungen nach §§ 305 ff. Bürgerliches Gesetzbuch (BGB).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-components pb-0" id="section-components">
+            <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <!-- Basic elements -->
-                        <h2 class="mb-5"><span>Allgemeine Geschäftsbedingungen</span></h2>
                         <li><a href="#V1"><strong>I Anbieterinformationen</strong></a></li>
                         <li><a href="#V2"><strong>II Allgemeine Geschäftsbedignungen</strong></a></li>
                         <li><a href="#V3"><strong>III Widerrufsbelehrung</strong></a></li>
@@ -139,7 +145,7 @@
                         <b>Widerrufsrecht</b><br>
                         <p>Verbraucher haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.</p>
                         <p>Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.</p>
-                        <p>Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (onemanpublisher GbR, Ochsenweg 50, 29491 Flensburg, Tel.: 0461 - 1507830, E-Mail: info@onemanpublisher.com) mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief, Telefax oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.<p>
+                        <p>Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (onemanpublisher GbR, Ochsenweg 50, 29491 Flensburg, Tel.: 0461 - 1507830, E-Mail: info@onemanpublisher.com) mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief, Telefax oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.</p>
                         <p>Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.</p>
                         <b>Folgen des Widerrufs</b><br>
                         <p>Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.</p>
@@ -176,11 +182,3 @@
         </section>
     </div>
 </template>
-<script>
-export default {
-  name: "Impressum",
-  components: {}
-};
-</script>
-<style>
-</style>

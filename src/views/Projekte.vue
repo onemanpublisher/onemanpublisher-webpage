@@ -48,12 +48,9 @@
                                     controls
                                     indicators>
                             <!-- Text slides with image -->
-                            <!-- <a href="#/projekte/games/realm-dash"><b-carousel-slide img-src="img/theme/img-1-579x406.png"></b-carousel-slide></a> -->
                             <a href="#/projekte/games/gravity-bird"><b-carousel-slide img-src="img/theme/img-1-579x406.png"></b-carousel-slide></a>
-                            <a href="#/projekte/filesearcher"><b-carousel-slide img-src="img/theme/img-2-579x406.png"></b-carousel-slide></a>
-                            <a href="#/projekte/julis-sh/openslides"><b-carousel-slide img-src="img/theme/img-3-579x406.png"></b-carousel-slide></a>
-                            <a href="#/projekte/julis-sh/internessystem"><b-carousel-slide img-src="img/theme/img-1-579x406.png"></b-carousel-slide></a>
-                        </b-carousel>
+                            <a href="#/projekte/deal-spotter"><b-carousel-slide img-src="img/theme/img-2-579x406.png"></b-carousel-slide></a>
+                      </b-carousel>
                     </div>
                 </div>
             </div>
